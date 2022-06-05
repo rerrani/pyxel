@@ -1,5 +1,5 @@
 # pyxel.py
-This bit of code can be used to generate surface density maps of sparse simulation data. It takes 2D coordinates of N-body particles, maps them on a grid, and subsequently expands each non-empty grid cell until it contains a set minimum number of particles. Each pixel of the output grid is assigned the average surface density of all expanded grid cells that overlap on it. The figure above illustrates how the non-empty grid cells are expanded until each of them contains at least two particles. The resolution in different regions of the output grid can be intuitively read off from the expanded grid cell size.
+This bit of code can be used to generate surface density maps of sparse simulation data. It takes 2D coordinates of N-body particles, maps them on a grid, and subsequently expands each non-empty grid cell until it contains a set minimum number of particles. Each pixel of the output grid is assigned the average surface density of all expanded grid cells that overlap on it. The figure below illustrates how the non-empty grid cells are expanded until each of them contains at least two particles. The resolution in different regions of the output grid can be intuitively read off from the expanded grid cell size.
 
 ![illustration](https://github.com/rerrani/rerrani.github.io/blob/master/code/pyxel.png?raw=true)
 
